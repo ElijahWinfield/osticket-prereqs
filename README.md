@@ -102,6 +102,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 4:
+  *Downloading and installing MySQl server and setting up a Username and password*
+  1. Download and install MySQL 5.5.62
+2. MySQL Server Instance Configuration: Click on Standard Configuration
+3. Click Next
+4. Set New Root Username and Password
+5. Username: root (example)
+6. Password: Password1 (example)
+7. Press Execute and then press finished when it is done
+
 
 
 
@@ -111,6 +120,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 5:
+*Open IIS as an Admin > Register PHP from within IIS*
+1. Click on the windows icon and search IIS
+2. Right Click on the icon and run as ‘Admin’
+3. Double Click on the PHP Manager Icon
+4. Click on Register New PHP Version
+5. Click on the 3 Dots Next to it
+6. Browse to the PHP folder and inside it click on the php-cgi.exe
+7. Reload the IIS Server
 
 
 
