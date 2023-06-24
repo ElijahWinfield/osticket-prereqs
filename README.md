@@ -154,6 +154,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 7:
+  *Going to the osTicket instalation website and configuring a few settings inside of the IIS Server*
+  1. Reload the IIS Server (Inside the IIS App)
+2. vm-osticket > Application Pools > Sites > Default website > 'osTicket'
+3. On the right click on Browse start 80
+4. Go back to IIS then click on ‘osTicket’
+5. Double click Php manager icon
+6. Click on Enable or Disable an Extension
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opcache.dll
+8. Refresh the browser to see the changes
+
+
 
 
 
@@ -163,6 +176,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 8:
+  *renaming ost-sampleconfig.php inside the osTicket Folder*
+  1. Browse to the osTicket folder (This PC > Windows (C:) >  inetpub > wwwroot > osTicket)                                 
+2. Click on the 'Include' folder
+3. Scroll down and rename the ost-sampleconfig.php simply to ost-config.php
 
 
   <p>
@@ -171,6 +188,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 9:
+*Assign Permissions: ost-config.php*
+1. Right click  on ost-config.php
+2. Click properties
+3. Click Security
+4. Click Advanced
+5. Click ‘Disabled Inheritance at the bottom
+6. Click Remote all inherited permissions from this object
+7. Click Add
+8. Click select a principal 
+9. Type ‘everyone’ at the bottom and press check names
+10. In the basic permissions check all of the boxes and then click ok
+11. Click apply ok > ok
 
 
   <p>
