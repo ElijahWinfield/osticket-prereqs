@@ -238,6 +238,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 11:
+*Download and install HeidiSQL create a new database*
+1. Download and install HeidiSQL: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
+2. Open Heidi SQL
+3. Click New
+4. Set User: root
+5. Set Password: Password1
+6. Click open
+7. Right Click Unnamed on the top left
+8. Create new database
+9. Rename it ‘osTicket’ then click ok
+10. Go back to the osTicket browser and set the rest of the info in and press install
 
 
   <p>
@@ -246,4 +257,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 12:
+  *Clean up proccess*
+  1. Delete: C:\inetpub\wwwroot\osTicket\setup
+2. Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Note: 'Include' folder inside of osTicket to delete it
+
 
