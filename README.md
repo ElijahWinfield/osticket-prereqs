@@ -211,21 +211,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 *Continue Setting up osTicket in the browser (click Continue)*
 
  *System Settings*
-- Helpdesk Name: Eliah Help Desk
-- Default Email: Elijah@helper.com
-- Primary Language: English
+- Helpdesk Name: Eliah Help Desk (example)
+- Default Email: Elijah@helper.com (example)
+- Primary Language: English (set to your language)
+
 
 *Admin User*
-- First name: Elijah
-- Last name:  Winfield
-- Email Address: Elijah@gmail.com 
-- Username: Elijah
-- Password: ElijahWinfield1
+- First name: Elijah (example)
+- Last name:  Winfield (example)
+- Email Address: Elijah@gmail.com (example)
+- Username: Elijah (example)
+- Password: ElijahWinfield1 (example)
  
-  *DATABASE SETTINGS*
-- MySQL Database: osTicket
-- MySQL Username: root
-- MySQL Password: Password1
+
+   *DATABASE SETTINGS*
+- MySQL Database: osTicket (required)
+- MySQL Username: root (example)
+- MySQL Password: Password1 (example)
 
 
   <p>
