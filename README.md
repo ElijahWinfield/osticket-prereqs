@@ -86,6 +86,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 3:
+  *Create the directory C:\PHP and install content into it*
+  1. Download and install VC_redist.x86.exe. - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link
+2. Click on the folder Icon on windows
+3. Click on this PC
+4. Click on Local (C:)
+5. Right Click an empty space and create a new folder called ‘PHP’
+6. Download PHP 7.3.8 and extract the content into that new folder called ‘PHP’ - https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link
+
 
 
 <p>
