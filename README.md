@@ -137,6 +137,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
   STEP 6:
+  *Install osTicket > extracting contents into it*
+  1. Download osTicket https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=drive_link
+2. Open the osTicket Zip Folder you should see an folder called upload
+3. Keep that window open
+4. Go to your (C:) drive > Click on the ‘inetpub’ folder
+5. Click on wwwroot > Then drag and drop the ‘upload folder into the wwwroot folder.
+6. Rename the upload folder to ‘osTicket'
+
 
 
 
