@@ -43,7 +43,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+  STEP 1:
+  *Install / Enable IIS in Windows WITH CGI and Common HTTP Features*
+  1.  Click on the windows start menu logo
+2.  Type Control Panel in the search bar located at the top of the window
+3. Click on the control panel Icon or App
+4. Click on Programs that is highlighted in green
+5. Click on turn windows features on or off that is highlighted in blue next to a shield icon
+6. Once that window pops up, Scroll or look until you see Internet Information Services
+7. Check the Internet Information Services box (IIS) 
+8. Click on the + Symbol next to where it says Internet Information Services
+9. On that dropdown you want to look for where it says World Wide Web Services
+10. Click the + Symbol next to World Wide Web Services
+11. On that dropdown you want to look for where it says Application Developmet Features
+12. Click the + Symbol next to Application Development Features
+13. Check the CGI Box
+14. Press the - Symbol next to Application Development Features
+15. Click the + Symbol Next to Common HTTP Features
+16. Check off all the boxes inside of it
+17. Click ok and then close everything
+18. Open up a web browser and type 127.0.0.1 and press enter to check
+
 </p>
 <br />
 
