@@ -269,6 +269,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
+<p>
+<img src="https://i.imgur.com/bbobLiv.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
   STEP 12:
   *Clean up proccess*
   1. Delete: C:\inetpub\wwwroot\osTicket\setup
